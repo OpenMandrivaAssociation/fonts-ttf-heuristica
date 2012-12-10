@@ -39,3 +39,17 @@ ttmkfdir %{buildroot}%{_xfontdir}/TTF/heuristica -o %{buildroot}%{_xfontdir}/TTF
 %verify(not mtime) %{_datadir}/fonts/TTF/heuristica/fonts.dir
 %{_xfontdir}/TTF/heuristica/fonts.scale
 %{_sysconfdir}/X11/fontpath.d/ttf-heuristica:pri=50
+
+
+%changelog
+* Mon Aug 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.0.1-1
++ Revision: 814526
+- rename to heuristica to match upstream name
+- update to 1.0.1
+- some minor fixes
+- rename package to match upstream font name
+
+* Wed Dec 07 2011 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.4-1
++ Revision: 738641
+- imported package fonts-ttf-heuristika
+
