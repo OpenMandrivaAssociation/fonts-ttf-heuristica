@@ -3,7 +3,7 @@
 Summary:	Extended version of Adobe Utopia font
 Name:		fonts-ttf-heuristica
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	OFL
 Group:		System/Fonts/True type
 URL:		http://code.google.com/p/evristika/
